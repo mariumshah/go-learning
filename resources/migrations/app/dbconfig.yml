@@ -1,0 +1,6 @@
+development:
+  dialect: mysql
+  datasource: root:root@tcp(localhost:1444)/playground?charset=utf8&parseTime=true
+  dir: resources/migrations/app/migrations
+  # dir: migrations
+  table: migrations_app_playground

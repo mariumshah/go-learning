@@ -1,0 +1,11 @@
+# to generate models
+no-tests = true
+
+[mysql]
+dbname = "playground"
+host = "localhost"
+port = 1444
+user = "playground_user"
+pass = "playground_password"
+sslmode = "false"
+blacklist = ["migrations_app_playground"]
